@@ -1,0 +1,20 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "shortMessage": "Command failed with exit code 1: /private/var/folders/n0/pcjqz99922v8llj_01xp1lz00000gn/T/dlx-39475/bin/create-svelte",
+    "command": "/private/var/folders/n0/pcjqz99922v8llj_01xp1lz00000gn/T/dlx-39475/bin/create-svelte",
+    "escapedCommand": "\"/private/var/folders/n0/pcjqz99922v8llj_01xp1lz00000gn/T/dlx-39475/bin/create-svelte\"",
+    "exitCode": 1,
+    "failed": true,
+    "timedOut": false,
+    "isCanceled": false,
+    "killed": false,
+    "err": {
+      "name": "pnpm",
+      "message": "Command failed with exit code 1: /private/var/folders/n0/pcjqz99922v8llj_01xp1lz00000gn/T/dlx-39475/bin/create-svelte",
+      "stack": "pnpm: Command failed with exit code 1: /private/var/folders/n0/pcjqz99922v8llj_01xp1lz00000gn/T/dlx-39475/bin/create-svelte\n    at makeError (/Users/lauk/.nvm/versions/node/v16.13.2/pnpm-global/5/node_modules/.pnpm/pnpm@6.30.0/node_modules/pnpm/dist/pnpm.cjs:42493:17)\n    at handlePromise (/Users/lauk/.nvm/versions/node/v16.13.2/pnpm-global/5/node_modules/.pnpm/pnpm@6.30.0/node_modules/pnpm/dist/pnpm.cjs:43064:33)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Object.handler (/Users/lauk/.nvm/versions/node/v16.13.2/pnpm-global/5/node_modules/.pnpm/pnpm@6.30.0/node_modules/pnpm/dist/pnpm.cjs:177375:7)\n    at async /Users/lauk/.nvm/versions/node/v16.13.2/pnpm-global/5/node_modules/.pnpm/pnpm@6.30.0/node_modules/pnpm/dist/pnpm.cjs:182056:21\n    at async run (/Users/lauk/.nvm/versions/node/v16.13.2/pnpm-global/5/node_modules/.pnpm/pnpm@6.30.0/node_modules/pnpm/dist/pnpm.cjs:182030:34)\n    at async runPnpm (/Users/lauk/.nvm/versions/node/v16.13.2/pnpm-global/5/node_modules/.pnpm/pnpm@6.30.0/node_modules/pnpm/dist/pnpm.cjs:182249:5)\n    at async /Users/lauk/.nvm/versions/node/v16.13.2/pnpm-global/5/node_modules/.pnpm/pnpm@6.30.0/node_modules/pnpm/dist/pnpm.cjs:182241:7"
+    }
+  }
+}
