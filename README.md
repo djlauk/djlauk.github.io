@@ -17,7 +17,7 @@ In a nuthsell this is how I set things up:
 - `pnpx svelte-add@latest tailwindcss`
 - `pnpm install -D @sveltejs/adapter-static@next`
 - edit `svelte.config.js`: use `adapter-static` and configure bulids to go to `./docs/` (required for GitHub pages).
-- add `./docs/` to `.gitignore`
+- **!** don't add `./docs/` to `.gitignore`! (required for deploying to GitHub pages)
 
 ### Develop locally
 

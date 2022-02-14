@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-security-policy" content="">
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-52cef74b.css">
+	<link rel="modulepreload" href="/_app/start-1819f27c.js">
+	<link rel="modulepreload" href="/_app/chunks/vendor-1ec5dcfe.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-237707f6.js">
+	<link rel="modulepreload" href="/_app/pages/pivot-table-hdb.svelte-1d65ecc3.js">
+	</head>
+	<body>
+		<div>
+
+
+<aside class="z-10 bg-slate-50 shadow-md text-slate-700 absolute min-h-screen p-4 top-0 left-0 w-full md:max-w-sm flex flex-col hidden"><div class="self-end cursor-pointer hover:text-slate-500"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg></div>
+	<div class="mt-2 flex-1"><h2 class="text-slate-500 uppercase text-xs mt-2">tools</h2>
+			<a class="block my-2 text-slate-700 no-underline" href="/encode-decode">Encode / Decode Strings</a><a class="block my-2 text-slate-700 no-underline" href="/password-generator">Password Generator</a><a class="block my-2 text-slate-700 no-underline" href="/pivot-table-hdb">Pivot Table for HDB</a><a class="block my-2 text-slate-700 no-underline" href="/pivot-table-sql">Pivot Table for SQL</a><a class="block my-2 text-slate-700 no-underline" href="/powershell-rename-screenshots">PowerShell Rename Screenshots</a><a class="block my-2 text-slate-700 no-underline" href="/timers">Timers</a><a class="block my-2 text-slate-700 no-underline" href="/vb-format">VB Formatter</a></div></aside>
+<div class="flex flex-col items-center h-screen bg-sky-50 text-slate-700"><div class="flex-1 w-4/5 bg-white shadow-xl"><div class="p-2 flex flex-row items-center mb-2 border-slate-100 shadow-md border-b"><div class="inline-block self-start p-2 rounded-full cursor-pointer hover:text-slate-500 hover:shadow-sm"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg></div>
+			<h1 class="ml-8 text-sky-600 text-4xl">Pivot Table for HDB</h1></div>
+		<div class="p-2"><div class="shadow-lg p-4"><h2 class="my-2 text-sky-600 text-4xl">HDB Classes</h2>
+	<div class="my-4 p-2 border-red-800 border-2 rounded-lg text-red-800 hidden"></div>
+
+	<div class="flex flex-col space-y-2"><div class="flex flex-col space-y-2 rounded-md shadow-lg p-2">
+	<div><div><label for="hdbClass">HDB Class</label></div>
+		<div><input id="hdbClass" type="text" class="w-full py-1 px-2 rounded-t-md bg-gray-100 border-0 border-b-2 border-gray-200 focus:ring-0" placeholder="CidPerson" value="Account"></div></div>
+
+	<div><div><label for="hdbAttributes">HDB Attributes</label></div>
+		<div><input id="hdbAttributes" type="text" class="w-full py-1 px-2 rounded-t-md bg-gray-100 border-0 border-b-2 border-gray-200 focus:ring-0" placeholder="PERSID, KST, firstName, lastName, ..." value="sAMAccountName, Mail, givenName, sn"></div></div>
+
+	</div></div>
+
+	<div class="flex flex-row justify-between mt-4"><button class="py-2 px-4 uppercase rounded-lg bg-sky-600 text-white">add class</button>
+		<button class="py-2 px-4 uppercase rounded-lg bg-sky-600 text-white">generate</button></div></div>
+
+<div class="shadow-lg p-4"><h2 class="my-2 text-sky-600 text-4xl">Generated SQL</h2>
+	<pre class="w-full h-60 font-mono text-gray-800 bg-gray-50 p-2 overflow-scroll"></pre></div></div></div></div>
+
+
+		<script type="module" data-hydrate="1g3ff5z">
+		import { start } from "/_app/start-1819f27c.js";
+		start({
+			target: document.querySelector('[data-hydrate="1g3ff5z"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/_app/pages/__layout.svelte-237707f6.js"),
+						import("/_app/pages/pivot-table-hdb.svelte-1d65ecc3.js")
+				],
+				url: new URL("http://sveltekit-prerender/pivot-table-hdb"),
+				params: {}
+			}
+		});
+	</script></div>
+	</body>
+</html>
