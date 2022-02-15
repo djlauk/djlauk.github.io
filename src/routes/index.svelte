@@ -13,8 +13,8 @@
 <p>Welcome to my GitHub pages.</p>
 
 <p>
-	I use it to try out things and it's become the home of a online tools you might enjoy or find
-	useful.
+	I use this place to try out things and it's become the home of some online tools you might enjoy
+	or find useful.
 </p>
 
 <p>Don't bother asking me for support.</p>
